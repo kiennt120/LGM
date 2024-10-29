@@ -107,3 +107,8 @@ def grid_distortion(images, strength=0.5):
 
     return images
 
+def normalize_depth(depth_image):
+    
+    max_depth=torch.max(depth_image)
+    depth_image=depth_image/max_depth
+    return depth_image

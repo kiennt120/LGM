@@ -20,10 +20,12 @@ class Options:
     output_size: int = 256
 
     ### dataset
+    data_path = 'gobjaverse/gobjaverse_dataset'
+    rar_data = True
     # data mode (only support s3 now)
     data_mode: Literal['s3'] = 's3'
     # fovy of the dataset
-    fovy: float = 49.1
+    fovy: float = 39.6
     # camera near plane
     znear: float = 0.5
     # camera far plane

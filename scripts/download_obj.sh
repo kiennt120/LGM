@@ -1,0 +1,1 @@
+python gobjaverse/download_objaverse_280k_tar.py gobjaverse/gobjaverse_dataset gobjaverse/gobjaverse_small.json 4
